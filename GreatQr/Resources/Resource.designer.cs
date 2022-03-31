@@ -3687,88 +3687,88 @@ namespace GreatQr
 			public const int expand_activities_button = 2131230823;
 			
 			// aapt resource value: 0x7F080069
-			public const int fab = 2131230825;
-			
-			// aapt resource value: 0x7F08006A
-			public const int fill = 2131230826;
-			
-			// aapt resource value: 0x7F08006D
-			public const int filled = 2131230829;
-			
-			// aapt resource value: 0x7F08006B
-			public const int fill_horizontal = 2131230827;
+			public const int fill = 2131230825;
 			
 			// aapt resource value: 0x7F08006C
-			public const int fill_vertical = 2131230828;
+			public const int filled = 2131230828;
+			
+			// aapt resource value: 0x7F08006A
+			public const int fill_horizontal = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int fill_vertical = 2131230827;
+			
+			// aapt resource value: 0x7F08006D
+			public const int @fixed = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int @fixed = 2131230830;
+			public const int forever = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int forever = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int fragment_container_view_tag = 2131230832;
+			public const int fragment_container_view_tag = 2131230831;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
+			// aapt resource value: 0x7F080070
+			public const int ghost_view = 2131230832;
+			
 			// aapt resource value: 0x7F080071
-			public const int ghost_view = 2131230833;
+			public const int ghost_view_holder = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int ghost_view_holder = 2131230834;
+			public const int group_divider = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int group_divider = 2131230835;
+			public const int home = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int home = 2131230836;
+			public const int homeAsUp = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int homeAsUp = 2131230837;
+			public const int icon = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int icon = 2131230838;
+			public const int icon_group = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int icon_group = 2131230839;
+			public const int ifRoom = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int ifRoom = 2131230840;
+			public const int image = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int image = 2131230841;
+			public const int info = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int info = 2131230842;
+			public const int italic = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int italic = 2131230843;
+			public const int item_touch_helper_previous_elevation = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int item_touch_helper_previous_elevation = 2131230844;
+			public const int labeled = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int labeled = 2131230845;
+			public const int largeLabel = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int largeLabel = 2131230846;
+			public const int left = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int left = 2131230847;
+			public const int line1 = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int line1 = 2131230848;
+			public const int line3 = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int line3 = 2131230849;
+			public const int listMode = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int listMode = 2131230850;
+			public const int list_item = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int list_item = 2131230851;
+			public const int main_image = 2131230851;
 			
 			// aapt resource value: 0x7F080084
 			public const int masked = 2131230852;
@@ -4041,64 +4041,61 @@ namespace GreatQr
 			public const int title_template = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int toolbar = 2131230939;
+			public const int top = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int top = 2131230940;
+			public const int topPanel = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int topPanel = 2131230941;
+			public const int touch_outside = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int touch_outside = 2131230942;
+			public const int transition_current_scene = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int transition_current_scene = 2131230943;
+			public const int transition_layout_save = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int transition_layout_save = 2131230944;
+			public const int transition_position = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int transition_position = 2131230945;
+			public const int transition_scene_layoutid_cache = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int transition_scene_layoutid_cache = 2131230946;
+			public const int transition_transform = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int transition_transform = 2131230947;
+			public const int @unchecked = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int @unchecked = 2131230948;
+			public const int uniform = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int uniform = 2131230949;
+			public const int unlabeled = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int unlabeled = 2131230950;
+			public const int up = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int up = 2131230951;
+			public const int useLogo = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int useLogo = 2131230952;
+			public const int view_offset_helper = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int view_offset_helper = 2131230953;
+			public const int view_tree_saved_state_registry_owner = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int view_tree_saved_state_registry_owner = 2131230954;
+			public const int visible = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int visible = 2131230955;
+			public const int visible_removing_fragment_view_tag = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int visible_removing_fragment_view_tag = 2131230956;
+			public const int withText = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int withText = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int wrap_content = 2131230958;
+			public const int wrap_content = 2131230957;
 			
 			static Id()
 			{
@@ -4566,28 +4563,31 @@ namespace GreatQr
 			public const int hide_bottom_view_on_scroll_behavior = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int mtrl_chip_close_icon_content_description = 2131623976;
+			public const int image_tip = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int password_toggle_content_description = 2131623977;
+			public const int mtrl_chip_close_icon_content_description = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int path_password_eye = 2131623978;
+			public const int password_toggle_content_description = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int path_password_eye_mask_strike_through = 2131623979;
+			public const int path_password_eye = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int path_password_eye_mask_visible = 2131623980;
+			public const int path_password_eye_mask_strike_through = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int path_password_strike_through = 2131623981;
+			public const int path_password_eye_mask_visible = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int search_menu_title = 2131623982;
+			public const int path_password_strike_through = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int status_bar_notification_info_overflow = 2131623983;
+			public const int search_menu_title = 2131623983;
+			
+			// aapt resource value: 0x7F0E0030
+			public const int status_bar_notification_info_overflow = 2131623984;
 			
 			static String()
 			{

@@ -1,60 +1,60 @@
 ﻿using System;
 using Android.App;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
-using AndroidX.AppCompat.Widget;
+using Android.OS;
+using Debug = System.Diagnostics.Debug;
 using AndroidX.AppCompat.App;
-using Google.Android.Material.FloatingActionButton;
-using Google.Android.Material.Snackbar;
 
 namespace GreatQr
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : AppCompatActivity, GestureDetector.IOnGestureListener
     {
+        private GestureDetector mDetector;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            mDetector = new GestureDetector(this);
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
+        public bool OnDown(MotionEvent e)
         {
-            MenuInflater.Inflate(Resource.Menu.menu_main, menu);
-            return true;
+            return false;
         }
 
-        public override bool OnOptionsItemSelected(IMenuItem item)
+        public bool OnFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
         {
-            int id = item.ItemId;
-            if (id == Resource.Id.action_settings)
-            {
-                return true;
-            }
-
-            return base.OnOptionsItemSelected(item);
+            return false;
         }
 
-        private void FabOnClick(object sender, EventArgs eventArgs)
+        public void OnLongPress(MotionEvent e)
         {
-            View view = (View)sender;
-            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
-                .SetAction("Action", (View.IOnClickListener)null).Show();
+            Debug.WriteLine("Long press");
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        public bool OnScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY)
         {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            return false;
         }
+
+        public void OnShowPress(MotionEvent e)
+        {
+        }
+
+        public bool OnSingleTapUp(MotionEvent e)
+        {
+            return false;
+        }
+
+        public override bool OnTouchEvent(MotionEvent e)
+        {
+            mDetector.OnTouchEvent(e);
+            return false;
+        }
+
     }
 }

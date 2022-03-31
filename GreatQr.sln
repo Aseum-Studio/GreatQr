@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatQr", "GreatQr\GreatQr.csproj", "{635A1319-34D5-4CDC-B8BA-2E6A35769B10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{635A1319-34D5-4CDC-B8BA-2E6A35769B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635A1319-34D5-4CDC-B8BA-2E6A35769B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635A1319-34D5-4CDC-B8BA-2E6A35769B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635A1319-34D5-4CDC-B8BA-2E6A35769B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D05F0329-907B-4E0F-8CA9-D82C4B349A16}
+	EndGlobalSection
+EndGlobal

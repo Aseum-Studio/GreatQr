@@ -65,6 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataSaver.cs" />
     <Compile Include="SettingsActivity.cs" />
+    <Compile Include="ChangePicController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -113,7 +114,11 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\tool.png">
+    <AndroidResource Include="Resources\drawable\tool_white.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\tool_white_IPromiseIWillNotChangeAgain.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

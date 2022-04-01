@@ -12,7 +12,7 @@
 		android:layout_marginTop="54dp"
 		android:scaleType="fitXY"
 		android:background="@drawable/button_back"
-		android:id="@+id/imageButton1"
+		android:id="@+id/backBtn"
 		android:contentDescription=""
 		android:src="@drawable/cancel_white" />
 	<TextView
@@ -32,11 +32,11 @@
 		android:layout_marginTop="54dp"
 		android:scaleType="fitXY"
 		android:background="@drawable/button_tool"
-		android:id="@+id/imageButton2"
+		android:id="@+id/changeBtn"
 		android:contentDescription=""
-		android:src="@drawable/tool"/>
+		android:src="@drawable/tool_white_ipromiseiwillnotchangeagain"/>
 	<TextView
-		android:text="@string/back"
+		android:text="@string/change"
         android:layout_alignParentRight="true"
         android:layout_width="60dp"
         android:layout_height="25dp"

@@ -4,6 +4,9 @@ using Android.Views;
 using Android.OS;
 using Debug = System.Diagnostics.Debug;
 using AndroidX.AppCompat.App;
+using System.Threading.Tasks;
+using Android.Widget;
+using Android.Content;
 
 namespace GreatQr
 {
@@ -11,6 +14,7 @@ namespace GreatQr
     public class MainActivity : AppCompatActivity, GestureDetector.IOnGestureListener
     {
         private GestureDetector mDetector;
+        private DataSaver dataSaver;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -19,6 +23,24 @@ namespace GreatQr
             SetContentView(Resource.Layout.activity_main);
 
             mDetector = new GestureDetector(this);
+            dataSaver = new DataSaver();
+
+            _ = CheckIsFirstStart();
+        }
+
+        private async Task CheckIsFirstStart()
+        {
+            dataSaver.setKey("firstStart");
+            bool isFirstStart = await dataSaver.getStringValue() == null;
+            Debug.WriteLineIf(isFirstStart, "first start");
+            Debug.WriteLineIf(!isFirstStart, "other start");
+            if (isFirstStart)
+            {
+                Toast
+                    .MakeText(this, "长按屏幕可以设置图片哦!", ToastLength.Long)
+                    .Show();
+                _ = dataSaver.setStringValue("yes");
+            }
         }
 
         public bool OnDown(MotionEvent e)
@@ -34,6 +56,7 @@ namespace GreatQr
         public void OnLongPress(MotionEvent e)
         {
             Debug.WriteLine("Long press");
+            StartActivity(typeof(SettingsActivity));
         }
 
         public bool OnScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY)

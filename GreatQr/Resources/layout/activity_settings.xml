@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/bgColor"
+    >
+	<ImageButton
+		android:layout_width="@dimen/round_btn"
+		android:layout_height="@dimen/round_btn"
+		android:layout_marginLeft="1dp"
+		android:layout_marginTop="54dp"
+		android:scaleType="fitXY"
+		android:background="@drawable/button_back"
+		android:id="@+id/imageButton1"
+		android:contentDescription=""
+		android:src="@drawable/cancel_white" />
+	<TextView
+		android:text="@string/back"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="118dp"
+		android:textColor="@color/textColor"
+		android:textAlignment="center"
+		android:id="@+id/textView1" />
+	<ImageButton
+		android:layout_width="@dimen/round_btn"
+        android:layout_alignParentRight="true"
+		android:layout_height="@dimen/round_btn"
+		android:layout_marginRight="1dp"
+		android:layout_marginTop="54dp"
+		android:scaleType="fitXY"
+		android:background="@drawable/button_tool"
+		android:id="@+id/imageButton2"
+		android:contentDescription=""
+		android:src="@drawable/tool"/>
+	<TextView
+		android:text="@string/back"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="118dp"
+		android:textColor="@color/textColor"
+		android:textAlignment="center"
+		android:id="@+id/textView2" />
+
+</RelativeLayout>

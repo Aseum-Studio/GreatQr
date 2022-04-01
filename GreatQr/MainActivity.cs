@@ -36,9 +36,10 @@ namespace GreatQr
             Debug.WriteLineIf(!isFirstStart, "other start");
             if (isFirstStart)
             {
-                Toast
-                    .MakeText(this, "长按屏幕可以设置图片哦!", ToastLength.Long)
-                    .Show();
+                Toast t = Toast.MakeText(this, "长按屏幕可以设置图片哦!", ToastLength.Long);
+                t.SetGravity(GravityFlags.CenterHorizontal, 0, 0);
+                t.Show();
+
                 _ = dataSaver.setStringValue("yes");
             }
         }
